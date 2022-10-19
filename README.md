@@ -101,3 +101,20 @@
   - https://codedrive.tistory.com/54
 
 ---
+
+### [5. 폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+
+- **문제 유형 : Hash / Set**
+
+- 시간복잡도 : `O(1)?? 맞나..?`
+
+  - 배열 길이는 10^4 미만이므로 시간복잡도를 상수로 표현 가능할 것 같다.
+
+- 풀이법 :
+
+  - 기본으로 가져가도 되는 폰켓몬의 갯수를 `num`으로 표현
+
+  - 정렬을 이용해서 중복 데이터 제거후 새로 정비된 리스트를 기존 `num`이랑 비교해서 if문 돌려서 최댓값 return
+    s
+
+---
